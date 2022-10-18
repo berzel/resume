@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Resume - Berzel Best</title>
+        <title>Berzel Best - Full Stack Web Developer</title>
         <meta name="description" content="Online Resume of Berzel Best" />
       </Head>
     
