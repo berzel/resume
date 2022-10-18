@@ -166,7 +166,7 @@ export default function Home() {
           </section>
 
           <section className='flex justify-between pt-16 mt-16 space-x-24 border-t border-slate-800'>
-            <div className='w-[60%] flex-shrink'>
+            <div className='w-[50%] flex-shrink-0'>
 
               <div className='flex flex-shrink-0 before:block before:flex-shrink-0 before:h-1 before:w-8 before:bg-transparent before:mr-8'>
                 <h2 className='text-lg font-black uppercase'>Work Experience</h2>
@@ -313,7 +313,7 @@ export default function Home() {
 
             </div>
 
-            <div className='w-[40%] flex-shrink-0'>
+            <div className='w-[50%] flex-shrink'>
               <div className='flex justify-between after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
                 <div>
                   <h2 className='text-lg font-black uppercase'>My Skills</h2>
