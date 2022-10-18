@@ -77,7 +77,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+263782632563" className='flex items-center justify-end space-x-4'>
+                  <a href="#" className='flex items-center justify-end space-x-4'>
                     <span>
                       Cape Town, SA
                     </span>
