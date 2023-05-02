@@ -172,145 +172,173 @@ export default function Home() {
                 <h2 className='text-lg font-black uppercase'>Work Experience</h2>
               </div>
 
-              <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
-                <div>
-                  <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
-                  <h3 className='text-xl'>WebDev Private Limited</h3>
-                  <div className='flex justify-between w-full italic text-teal-600'>
-                    <span>12/2019 - Present</span>
-                    <span>Harare, ZW</span>
-                  </div>
-                  <div className='text-gray-500'>
-                    Software Development
-                  </div>
+              <div className="space-y-10">
+                <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                    <h2 className='text-xl font-bold'>Senior Laravel Developer</h2>
+                    <h3 className='text-xl'>STAXO Group</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>11/2022 - Present</span>
+                      <span>London, UK</span>
+                    </div>
+                    <div className='text-gray-500'>
+                      Software Development
+                    </div>
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
 
-                    <ul className='space-y-2'>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Collaborated with other engineers in designing and implementing some parts of the paynow.co.zw payments gateway and topup.co.zw bill payments platform. I was 
-                          responsible for implementing and documenting the EcoCash &amp; NetOne Payments API adapters, which are mobile money payment providers, and also
-                          the ZETDC Prepaid Electricity tokens API, which integrated with a SOAP API provided by ZB Bank.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Was also responsible for the day to day maintenance of the Paynow payments gateway and the disbursments API. Also
-                          provided support to client developers that needed help integrating with these APIs through the paynow forum and onsite.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Participated in daily standup meetings as well as monthly review meetings with other developers and stakeholders within the company
-                          where we discused our progress and any problem areas and came up with solutions that would improve our daily processes and 
-                          throughput.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Used blackfire.io - a code profiling tool - to identify problem methods and queries that where causing the classifieds.co.zw homepage to 
-                          take anywhere between 10 to 15 seconds to load without using cache. Optimized the SQL queries that were being perfomed when fetching data from the
-                          datasource. Resolved N+1 issues and 0(N^3) methods using recursion with memoization, this managed to reduce the load time to an average of 3 seconds.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Introduced cypress.io for running automated end to end tests on staging envrionments before deployment so we can quickly identify regressions
-                          and any bugs that might have been introduced during development. This resulted in developers spending 50% less time fixing bugs and
-                          freed up time to work on new features instead.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Collaborated with the classifieds marketing team and project manager in optimizing Google Analytics tracking and Google Search sitemaps
-                          so that we can get better insights on how users where using our platform and to optimize google adwords campaigns that were being executed
-                          by the marketing team.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                         Created custom WordPress themes for PPC Zimbabwe branch website (ppc.co.zw), Rainham Park Housing Project (rainhampark.co.zw) and Unified Councils Pension Fund
-                         (ucpf.co.zw). Worked directly with client representatives through the entire software development lifecycle from designing and iterating through the design using Figma,
-                          implementing the designs in HTML, CSS &amp; JavaScript, deployment, testing as well as providing support after the projects have been deployed.
-                        </p>
-                      </li>
-                    </ul>
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Worked together with my supervisor, the UI Designer, and project manager to implement an open banking payments platform, portal.bankzy.co.uk. I was mainly responsible
+                            for developing the core API of the system using Laravel, and the Admin Dashboard using ReactJS on the frontend. The API integrated with multiple banking backend systems
+                            and provided an API for POS Terminals to communicate with in real time using web sockets as well as through rest API endpoints.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                  <div>
+                    <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
+                    <h3 className='text-xl'>WebDev Private Limited</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>12/2019 - 10/2022</span>
+                      <span>Harare, ZW</span>
+                    </div>
+                    <div className='text-gray-500'>
+                      Software Development
+                    </div>
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Collaborated with other engineers in designing and implementing some parts of the paynow.co.zw payments gateway and topup.co.zw bill payments platform. I was 
+                            responsible for implementing and documenting the EcoCash &amp; NetOne Payments API adapters, which are mobile money payment providers, and also
+                            the ZETDC Prepaid Electricity tokens API, which integrated with a SOAP API provided by ZB Bank.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Was also responsible for the day to day maintenance of the Paynow payments gateway and the disbursments API. Also
+                            provided support to client developers that needed help integrating with these APIs through the paynow forum and onsite.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Participated in daily standup meetings as well as monthly review meetings with other developers and stakeholders within the company
+                            where we discused our progress and any problem areas and came up with solutions that would improve our daily processes and 
+                            throughput.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Used blackfire.io - a code profiling tool - to identify problem methods and queries that where causing the classifieds.co.zw homepage to 
+                            take anywhere between 10 to 15 seconds to load without using cache. Optimized the SQL queries that were being perfomed when fetching data from the
+                            datasource. Resolved N+1 issues and 0(N^3) methods using recursion with memoization, this managed to reduce the load time to an average of 3 seconds.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Introduced cypress.io for running automated end to end tests on staging envrionments before deployment so we can quickly identify regressions
+                            and any bugs that might have been introduced during development. This resulted in developers spending 50% less time fixing bugs and
+                            freed up time to work on new features instead.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Collaborated with the classifieds marketing team and project manager in optimizing Google Analytics tracking and Google Search sitemaps
+                            so that we can get better insights on how users where using our platform and to optimize google adwords campaigns that were being executed
+                            by the marketing team.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                          Created custom WordPress themes for PPC Zimbabwe branch website (ppc.co.zw), Rainham Park Housing Project (rainhampark.co.zw) and Unified Councils Pension Fund
+                          (ucpf.co.zw). Worked directly with client representatives through the entire software development lifecycle from designing and iterating through the design using Figma,
+                            implementing the designs in HTML, CSS &amp; JavaScript, deployment, testing as well as providing support after the projects have been deployed.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                  <div>
+                    <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
+                    <h3 className='text-xl'>QwikTech Solutions</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>03/2018 - 11/2019</span>
+                      <span>Harare, ZW</span>
+                    </div>
+                    <div className='text-gray-500'>
+                      Software Development
+                    </div>
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Closely worked with the UI/UX designer during the design phase of magetsi.co.zw website - a bill payments platform, and then went on to implement 
+                            the entire backend system using custom microservices that integrated with multiple backend systems including SOAP APIs. Used Laravel, ReactJS, 
+                            Docker with NGINX, AutoPilot, Consul, Prometheus and Elastic Search for log collection. Learnt a whole bunch of microservice technologies implementing this.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Was also responsible for creating an automated deployment pipeline for all the 4 microservices powering the magetsi.co.zw backend using Jenkins
+                            which resulted in quicker iterations and deployements and thus increased productivity.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Also created a WhatsApp chatbot that integrated with the core APIs to allow Magetsi clients to purchase airtime, buy prepaid tokens, and 
+                            and wifi bundles using their WhatsApp. 
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                  <div>
+                    <h2 className='text-xl font-bold'>Backend Java Developer</h2>
+                    <h3 className='text-xl'>Quatrohaus Private Limited</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>02/2016 - 07/2017</span>
+                      <span>Harare, ZW</span>
+                    </div>
+                    <div className='text-gray-500'>
+                      Software Development
+                    </div>
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Worked together with other developers to implement an enterprise business process managment system for the Civil Aviation Authority of Zimbabwe
+                            using SpringBoot MicroServices and Angular on the frontend. Got to work with Kamunda BPMN business process modelling systems and also JasperSoft
+                            for generating different kinds of certificates produced by the system including Air Worthness Certificates.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Was also responsible for designing and building the Masawara investor portal using Laravel.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <div className="flex flex-shrink-0 mt-8 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
-                <div>
-                  <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
-                  <h3 className='text-xl'>QwikTech Solutions</h3>
-                  <div className='flex justify-between w-full italic text-teal-600'>
-                    <span>03/2018 - 11/2019</span>
-                    <span>Harare, ZW</span>
-                  </div>
-                  <div className='text-gray-500'>
-                    Software Development
-                  </div>
-                  <div>
-                    <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
-
-                    <ul className='space-y-2'>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Closely worked with the UI/UX designer during the design phase of magetsi.co.zw website - a bill payments platform, and then went on to implement 
-                          the entire backend system using custom microservices that integrated with multiple backend systems including SOAP APIs. Used Laravel, ReactJS, 
-                          Docker with NGINX, AutoPilot, Consul, Prometheus and Elastic Search for log collection. Learnt a whole bunch of microservice technologies implementing this.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Was also responsible for creating an automated deployment pipeline for all the 4 microservices powering the magetsi.co.zw backend using Jenkins
-                          which resulted in quicker iterations and deployements and thus increased productivity.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Also created a WhatsApp chatbot that integrated with the core APIs to allow Magetsi clients to purchase airtime, buy prepaid tokens, and 
-                          and wifi bundles using their WhatsApp. 
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-shrink-0 mt-8 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
-                <div>
-                  <h2 className='text-xl font-bold'>Backend Java Developer</h2>
-                  <h3 className='text-xl'>Quatrohaus Private Limited</h3>
-                  <div className='flex justify-between w-full italic text-teal-600'>
-                    <span>02/2016 - 07/2017</span>
-                    <span>Harare, ZW</span>
-                  </div>
-                  <div className='text-gray-500'>
-                    Software Development
-                  </div>
-                  <div>
-                    <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
-
-                    <ul className='space-y-2'>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Worked together with other developers to implement an enterprise business process managment system for the Civil Aviation Authority of Zimbabwe
-                          using SpringBoot MicroServices and Angular on the frontend. Got to work with Kamunda BPMN business process modelling systems and also JasperSoft
-                          for generating different kinds of certificates produced by the system including Air Worthness Certificates.
-                        </p>
-                      </li>
-                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
-                        <p>
-                          Was also responsible for designing and building the Masawara investor portal using Laravel.
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
             </div>
 
             <div className='w-[50%] flex-shrink'>
