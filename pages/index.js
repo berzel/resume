@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Berzel Best - Full Stack Web Developer</title>
+        <title>Berzel Best - Full Stack Laravel Developer</title>
         <meta name="description" content="Online Resume of Berzel Best" />
       </Head>
     
@@ -16,11 +16,9 @@ export default function Home() {
             <div className="flex before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-slate-800 before:mr-8 w-[33.33333%] flex-shrink-0">
               <div>
                 <h1 className="text-4xl font-semibold ">Berzel Best</h1>
-                <h2 className="text-lg font-semibold text-teal-600">Full Stack Web Developer</h2>
+                <h2 className="text-lg font-semibold text-teal-600">Full Stack Laravel Developer</h2>
                 <p className='mt-2 max-w-[25rem]'>
-                  A megastar web developer with experience creating custom solutions for business of all sizes. 
-                  I have a curious mind that likes to work on challenging problems and is 
-                  constantly looking for new ways to improve my current skillset.
+                  I am a skilled full-stack Laravel developer with over 5 years of experience working on high-volume e-commerce, online classifieds, and fintech products. I possess a curious mindset that thrives on tackling challenging problems, and I am always exploring innovative ways to optimize everything within my purview.
                 </p>
               </div>
             </div>
@@ -190,9 +188,22 @@ export default function Home() {
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Worked together with my supervisor, the UI Designer, and project manager to implement an open banking payments platform, portal.bankzy.co.uk. I was mainly responsible
-                            for developing the core API of the system using Laravel, and the Admin Dashboard using ReactJS on the frontend. The API integrated with multiple banking backend systems
-                            and provided an API for POS Terminals to communicate with in real time using web sockets as well as through rest API endpoints.
+                            I utilized Laravel and ReactJS to construct the REST API backend and administrative dashboard for Bankzy, a pay-by-open-banking platform that offers faster and more cost-effective transactions than Paypal
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            I attended meetings with clients and other stakeholders to ensure accurate capture of project requirements.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            I facilitated technical discussions and daily stand-up meetings and ensured timely delivery of projects.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            I mentored junior developers and offered constructive feedback during code reviews, with the goal of enhancing the performance and maintainability of the source code.
                           </p>
                         </li>
                       </ul>
@@ -217,50 +228,37 @@ export default function Home() {
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Collaborated with other engineers in designing and implementing some parts of the paynow.co.zw payments gateway and topup.co.zw bill payments platform. I was 
-                            responsible for implementing and documenting the EcoCash &amp; NetOne Payments API adapters, which are mobile money payment providers, and also
-                            the ZETDC Prepaid Electricity tokens API, which integrated with a SOAP API provided by ZB Bank.
+                            Implemented and documented multiple microservices that integrated with both REST and SOAP APIs for Topup.co.zw, the largest online bill payments platform in Zimbabwe.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Was also responsible for the day to day maintenance of the Paynow payments gateway and the disbursments API. Also
-                            provided support to client developers that needed help integrating with these APIs through the paynow forum and onsite.
+                            I employed blackfire.io, a code profiling tool, to identify problematic methods and queries responsible for the lengthy loading time of the classifieds.co.zw homepage, which took anywhere from 8 to 12 seconds to load without using cache. I optimized the SQL queries involved in retrieving data from the data source and resolved N+1 issues and 0(N^3) methods by using recursion with memoization. These efforts successfully reduced the load time to an average of 800ms seconds.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Participated in daily standup meetings as well as monthly review meetings with other developers and stakeholders within the company
-                            where we discused our progress and any problem areas and came up with solutions that would improve our daily processes and 
-                            throughput.
+                            I implemented cypress.io for automated end-to-end tests in our deployment pipeline, enabling us to rapidly detect any regressions or bugs introduced during development. This initiative led to a 50% reduction in time spent by developers on bug fixing, thereby freeing up time to focus on new feature development.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Used blackfire.io - a code profiling tool - to identify problem methods and queries that where causing the classifieds.co.zw homepage to 
-                            take anywhere between 10 to 15 seconds to load without using cache. Optimized the SQL queries that were being perfomed when fetching data from the
-                            datasource. Resolved N+1 issues and 0(N^3) methods using recursion with memoization, this managed to reduce the load time to an average of 3 seconds.
+                            I oversaw the daily upkeep of the Paynow payments gateway and disbursals API, while also offering support to client developers seeking assistance with API integration through the Paynow forum and on-site.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Introduced cypress.io for running automated end to end tests on staging envrionments before deployment so we can quickly identify regressions
-                            and any bugs that might have been introduced during development. This resulted in developers spending 50% less time fixing bugs and
-                            freed up time to work on new features instead.
+                            I contributed to daily stand-up meetings and monthly review meetings with developers and stakeholders, where we discussed progress updates, identified problem areas, and devised solutions to enhance our daily operations and overall throughput.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Collaborated with the classifieds marketing team and project manager in optimizing Google Analytics tracking and Google Search sitemaps
-                            so that we can get better insights on how users where using our platform and to optimize google adwords campaigns that were being executed
-                            by the marketing team.
+                            I partnered with the Classifieds marketing team and project manager to enhance Google Analytics tracking and Google Search sitemaps, enabling us to gain valuable insights into user behavior and optimize Google AdWords campaigns managed by the marketing team.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                          Created custom WordPress themes for PPC Zimbabwe branch website (ppc.co.zw), Rainham Park Housing Project (rainhampark.co.zw) and Unified Councils Pension Fund
-                          (ucpf.co.zw). Worked directly with client representatives through the entire software development lifecycle from designing and iterating through the design using Figma,
-                            implementing the designs in HTML, CSS &amp; JavaScript, deployment, testing as well as providing support after the projects have been deployed.
+                          I developed custom WordPress themes for the PPC Zimbabwe branch website (ppc.co.zw), Rainham Park Housing Project (rainhampark.co.zw), and Unified Councils Pension Fund (ucpf.co.zw). I collaborated closely with client representatives throughout the software development lifecycle, from designing and iterating using Figma, to implementing the designs in HTML, CSS, and JavaScript, as well as handling deployment, testing, and post-deployment support.
                           </p>
                         </li>
                       </ul>
@@ -285,21 +283,17 @@ export default function Home() {
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Closely worked with the UI/UX designer during the design phase of magetsi.co.zw website - a bill payments platform, and then went on to implement 
-                            the entire backend system using custom microservices that integrated with multiple backend systems including SOAP APIs. Used Laravel, ReactJS, 
-                            Docker with NGINX, AutoPilot, Consul, Prometheus and Elastic Search for log collection. Learnt a whole bunch of microservice technologies implementing this.
+                            Created multiple micro services and the frontend of magetsi.co.zw, a bill payments platform that aims to provide an accessible bill payments platform.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Was also responsible for creating an automated deployment pipeline for all the 4 microservices powering the magetsi.co.zw backend using Jenkins
-                            which resulted in quicker iterations and deployements and thus increased productivity.
+                            I established an automated deployment pipeline for the four microservices supporting the Magetsi.co.zw backend using Jenkins. This initiative facilitated faster iterations and deployments, thereby improving productivity.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Also created a WhatsApp chatbot that integrated with the core APIs to allow Magetsi clients to purchase airtime, buy prepaid tokens, and 
-                            and wifi bundles using their WhatsApp. 
+                            I developed an onmni-channel chatbot that seamlessly integrated with core APIs to enable Magetsi clients to purchase airtime, prepaid tokens, and WiFi bundles using their WhatsApp, Telegram or Twitter. 
                           </p>
                         </li>
                       </ul>
@@ -324,14 +318,12 @@ export default function Home() {
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Worked together with other developers to implement an enterprise business process managment system for the Civil Aviation Authority of Zimbabwe
-                            using SpringBoot MicroServices and Angular on the frontend. Got to work with Kamunda BPMN business process modelling systems and also JasperSoft
-                            for generating different kinds of certificates produced by the system including Air Worthness Certificates.
+                            I collaborated with fellow developers to implement an enterprise business process management system for the Civil Aviation Authority of Zimbabwe. The system relied on SpringBoot MicroServices on the backend and Angular on the frontend. During the project, I gained experience with Kamunda BPMN business process modeling systems and JasperSoft for generating various certificates, such as Air Worthiness Certificates
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Was also responsible for designing and building the Masawara investor portal using Laravel.
+                            I designed and built multiple admin portals using Laravel with Blade.
                           </p>
                         </li>
                       </ul>
@@ -471,7 +463,8 @@ export default function Home() {
                       https://adfury.co.zw
                     </a>
                     <p>
-                      AdFury is a freemium online classifieds platform that allows sellers to list their products online and boost their adverts through social media influencers
+                      My take on how the improved version of Classifieds.co.zw could be like. AdFury is a freemium online 
+                      classifieds platform that allows sellers to list their products online and boost their adverts through social media influencers
                       and get real value for their money. Built using Laravel + Inertia + ReactJS.
                     </p>
                   </div>
@@ -481,7 +474,7 @@ export default function Home() {
                       https://senza.co.zw
                     </a>
                     <p>
-                      A better Zimbabweans job board website. Built using Laravel + NextJs Frontend
+                      Me learning NextJs. Senza is a better Zimbabweans job board website. Built using Laravel + NextJs Frontend
                     </p>
                   </div>
                   <div className='mt-4'>
