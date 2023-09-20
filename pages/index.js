@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
     
       <div className='min-h-screen text-sm bg-slate-800'>
-        <div className="py-12 font-medium max-w-[1100px] mx-auto bg-white">
+        <div className="py-12 font-medium mx-auto bg-white">
 
           <section className='flex justify-between'>
             <div className="flex before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-slate-800 before:mr-8 w-[33.33333%] flex-shrink-0">
