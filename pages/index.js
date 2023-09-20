@@ -56,7 +56,7 @@ export default function Home() {
                 <li>
                   <a href="tel:+263782632563" className='flex items-center justify-end space-x-4'>
                     <span>
-                      +263 782 6325 63
+                      +27 611 8062 90
                     </span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
