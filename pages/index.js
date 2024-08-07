@@ -173,7 +173,7 @@ export default function Home() {
               <div className="space-y-10">
                 <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Senior Laravel Developer</h2>
+                    <h2 className='text-xl font-bold'>Laravel Developer</h2>
                     <h3 className='text-xl'>STAXO Group</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>11/2022 - Present</span>
@@ -198,12 +198,12 @@ export default function Home() {
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I facilitated technical discussions and daily stand-up meetings and ensured timely delivery of projects.
+                            I participated in technical discussions and daily stand-up meetings and ensured timely delivery of projects.
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I mentored junior developers and offered constructive feedback during code reviews, with the goal of enhancing the performance and maintainability of the source code.
+                            I offered constructive feedback during code reviews, with the goal of enhancing the performance and maintainability of the source code.
                           </p>
                         </li>
                       </ul>
