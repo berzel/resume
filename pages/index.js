@@ -18,7 +18,7 @@ export default function Home() {
                 <h1 className="text-4xl font-semibold ">Berzel Best</h1>
                 <h2 className="text-lg font-semibold text-teal-600">Full Stack Laravel Developer</h2>
                 <p className='mt-2 max-w-[25rem]'>
-                  I am a skilled full-stack Laravel developer with over 5 years of experience working on large payment gateways, CRMs, classifieds and e-commerce platforms. I possess a curious mindset that thrives on tackling challenging problems, and I am always exploring innovative ways to optimize everything within my purview.
+                  I am a skilled full-stack Laravel developer with over 6 years of experience working on large payment gateways, CRMs, classifieds and e-commerce platforms. I possess a curious mindset that thrives on tackling challenging problems, and I am always exploring innovative ways to optimize everything within my purview.
                 </p>
               </div>
             </div>
