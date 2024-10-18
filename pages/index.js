@@ -171,13 +171,53 @@ export default function Home() {
               </div>
 
               <div className="space-y-10">
+              <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                  <div>
+                    <h2 className='text-xl font-bold'>Senior Laravel Developer</h2>
+                    <h3 className='text-xl'>Payfast by Network</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>04/2023 - Present</span>
+                      {/* <span>Cape Town, SA</span> */}
+                    </div>
+                    <div className='text-gray-500'>
+                      Software Development
+                    </div>
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Led the development of the backend API for the Payfast mobile application
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Design & architect backend APIs for the new in person payments platform
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                             Meetings with stakeholders and developers to ensure timely delivery of projects.
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Did code reviews and monitoring to ensure the system is performing well in production.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
                     <h2 className='text-xl font-bold'>Laravel Developer</h2>
                     <h3 className='text-xl'>STAXO Group</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>11/2022 - Present</span>
-                      <span>London, UK</span>
+                      {/* <span>London, UK</span> */}
                     </div>
                     <div className='text-gray-500'>
                       Software Development
@@ -217,7 +257,7 @@ export default function Home() {
                     <h3 className='text-xl'>WebDev Private Limited</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>12/2019 - 10/2022</span>
-                      <span>Harare, ZW</span>
+                      {/* <span>Harare, ZW</span> */}
                     </div>
                     <div className='text-gray-500'>
                       Software Development
@@ -272,7 +312,7 @@ export default function Home() {
                     <h3 className='text-xl'>QwikTech Solutions</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>03/2018 - 11/2019</span>
-                      <span>Harare, ZW</span>
+                      {/* <span>Harare, ZW</span> */}
                     </div>
                     <div className='text-gray-500'>
                       Software Development
@@ -307,7 +347,7 @@ export default function Home() {
                     <h3 className='text-xl'>Quatrohaus Private Limited</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>02/2016 - 07/2017</span>
-                      <span>Harare, ZW</span>
+                      {/* <span>Harare, ZW</span> */}
                     </div>
                     <div className='text-gray-500'>
                       Software Development
