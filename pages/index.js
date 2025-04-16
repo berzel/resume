@@ -843,6 +843,31 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              <div className='flex justify-between mt-16 after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
+                <div>
+                  <h2 className='text-lg font-black uppercase'>Referees</h2>
+                  <div className='mt-2'>
+                    <h2 className='font-semibold'>Dr N S Dube</h2>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      drngqa@gmail.com
+                    </a>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      +263 772 114 507
+                    </a>
+                  </div>
+
+                  <div className='mt-4'>
+                    <h2 className='font-semibold'>Dr E M Ndlovu</h2>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      elexmike11@yahoo.com
+                    </a>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      +263 772 525 856
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
