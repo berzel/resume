@@ -173,7 +173,7 @@ export default function Home() {
               <div className="space-y-10">
               <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Full Stack Laravel Developer</h2>
+                    <h2 className='text-xl font-bold'>Remote Full Stack Laravel Developer</h2>
                     <h3 className='text-xl'>Payfast by Network</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>04/2023 - Present</span>
@@ -213,7 +213,7 @@ export default function Home() {
 
                 <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Laravel Developer</h2>
+                    <h2 className='text-xl font-bold'>Remote Laravel Developer</h2>
                     <h3 className='text-xl'>STAXO Group</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>11/2022 - 11/2024</span>
@@ -253,7 +253,7 @@ export default function Home() {
 
                 <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
+                    <h2 className='text-xl font-bold'>Hybrid Full Stack Web Developer</h2>
                     <h3 className='text-xl'>WebDev Private Limited</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>12/2019 - 10/2022</span>
