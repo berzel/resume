@@ -15,24 +15,24 @@ export default function Home() {
           <section className='flex justify-between'>
             <div className="flex before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-slate-800 before:mr-8 w-[33.33333%] flex-shrink-0">
               <div>
-                <h1 className="text-4xl font-semibold ">Berzel Best</h1>
-                <h2 className="text-lg font-semibold text-teal-600">Full Stack Laravel Developer</h2>
-                <p className='mt-2 max-w-[25rem]'>
+                <h1 className="text-4xl font-semibold ">Dr Sinovuyo Priviledge Moyo</h1>
+                {/* <h2 className="text-lg font-semibold text-teal-600">Dr </h2> */}
+                {/* <p className='mt-2 max-w-[25rem]'>
                   I am a skilled full-stack Laravel developer with over 6 years of experience working on large payment gateways, CRMs, classifieds and e-commerce platforms. I possess a curious mindset that thrives on tackling challenging problems, and I am always exploring innovative ways to optimize everything within my purview.
-                </p>
+                </p> */}
               </div>
             </div>
 
             <div className='rounded-full overflow-hidden border-teal-600 border-4 h-[10rem] w-[10rem] flex-shrink-0 m-auto'>
-              <Image height={500} width={500} className='object-cover object-center w-full h-full' src='/avatar.jpeg' alt="Berzel Best" />
+              <Image height={500} width={500} className='object-cover object-center w-full h-full' src='/sinoe.jpeg' alt="Berzel Best" />
             </div>
 
             <div className='flex justify-end after:block after:h-16 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12 w-[33.33333%] flex-shrink-0'>
-              <ul className='flex flex-col justify-between text-right'>
+              <ul className='flex flex-col justify-start text-right space-y-4'>
                 <li>
-                  <a href="mailto:berzel.best@gmail.com" className='flex items-center justify-end space-x-4'>
+                  <a href="mailto:sinovuyo.moyo@gmail.com" className='flex items-center justify-end space-x-4'>
                     <span>
-                      berzel.best@gmail.com
+                      sinovuyo.moyo@gmail.com
                     </span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +54,9 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+263782632563" className='flex items-center justify-end space-x-4'>
+                  <a href="tel:+263718462782" className='flex items-center justify-end space-x-4'>
                     <span>
-                      +27 611 8062 90
+                      +263 718 462 782
                     </span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export default function Home() {
                 <li>
                   <a href="#" className='flex items-center justify-end space-x-4'>
                     <span>
-                      Cape Town, SA
+                      Bulawayo, ZW
                     </span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://linkedin.com/in/berzel-best" className='flex items-center justify-end space-x-4' target="_blank" rel="noreferrer">
                     <span>
                     linkedin.com/in/berzel-best
@@ -158,7 +158,7 @@ export default function Home() {
                       ></path>
                     </svg>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
@@ -173,197 +173,382 @@ export default function Home() {
               <div className="space-y-10">
               <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Senior Laravel Developer</h2>
-                    <h3 className='text-xl'>Payfast by Network</h3>
+                    <h2 className='text-xl font-bold'>Junior Resident Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
-                      <span>04/2023 - Present</span>
+                      <span>08/2021 - 02/2022</span>
                       {/* <span>Cape Town, SA</span> */}
                     </div>
                     <div className='text-gray-500'>
-                      Software Development
+                      Internship (Medicine)
                     </div>
                     <div>
-                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
 
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Led the development of the backend API for the Payfast mobile application
+                            Clerking patients
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Design & architect backend APIs for the new in person payments platform
+                            Triaging patients
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                             Meetings with stakeholders and developers to ensure timely delivery of projects.
+                            Attending to emergencies and perfoming basic emergency procedures
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Did code reviews and monitoring to ensure the system is performing well in production.
+                            Securing intravenous lines
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Long term patient follow up
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Discharging patients
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Breaking bad news to the patient
                           </p>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
                 <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Laravel Developer</h2>
-                    <h3 className='text-xl'>STAXO Group</h3>
+                    <h2 className='text-xl font-bold'>Junior Resident Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
-                      <span>11/2022 - Present</span>
-                      {/* <span>London, UK</span> */}
+                      <span>02/2022 - 08/2022</span>
+                      {/* <span>Cape Town, SA</span> */}
                     </div>
                     <div className='text-gray-500'>
-                      Software Development
+                      Internship (Surgery)
                     </div>
                     <div>
-                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
 
                       <ul className='space-y-2'>
-                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I utilized Laravel and ReactJS to construct the REST API backend and administrative dashboard for Bankzy, a pay-by-open-banking platform that offers faster and more cost-effective transactions than Paypal
+                            Assiting with surgical procedures in theatre
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I attended meetings with clients and other stakeholders to ensure accurate capture of project requirements.
+                            Preparing patients for surgery
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I participated in technical discussions and daily stand-up meetings and ensured timely delivery of projects.
+                            Post operative patient follow up
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I offered constructive feedback during code reviews, with the goal of enhancing the performance and maintainability of the source code.
+                            Perfoming basic life saving surgical procedures
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Clerking and admiting patients
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Obtaining informed consent
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Confirmation of death of a patient
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Breaking bad news to patients
                           </p>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
-                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
-                    <h3 className='text-xl'>WebDev Private Limited</h3>
+                    <h2 className='text-xl font-bold'>Senior Resident Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
-                      <span>12/2019 - 10/2022</span>
-                      {/* <span>Harare, ZW</span> */}
+                      <span>08/2022 - 12/2022</span>
+                      {/* <span>Cape Town, SA</span> */}
                     </div>
                     <div className='text-gray-500'>
-                      Software Development
+                      Internship (Anaesthesia)
                     </div>
                     <div>
-                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
 
                       <ul className='space-y-2'>
-                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Implemented and documented multiple microservices that integrated with both REST and SOAP APIs for Topup.co.zw, the largest online bill payments platform in Zimbabwe.
+                            Pre operative patient assessment
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I employed blackfire.io, a code profiling tool, to identify problematic methods and queries responsible for the lengthy loading time of the classifieds.co.zw homepage, which took anywhere from 8 to 12 seconds to load without using cache. I optimized the SQL queries involved in retrieving data from the data source and resolved N+1 issues and 0(N^3) methods by using recursion with memoization. These efforts successfully reduced the load time to an average of 800ms seconds.
+                            Obtaining informed anaesthetic consent
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I implemented cypress.io for automated end-to-end tests in our deployment pipeline, enabling us to rapidly detect any regressions or bugs introduced during development. This initiative led to a 50% reduction in time spent by developers on bug fixing, thereby freeing up time to focus on new feature development.
+                            Objective airway assessment
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I oversaw the daily upkeep of the Paynow payments gateway and disbursals API, while also offering support to client developers seeking assistance with API integration through the Paynow forum and on-site.
+                            Pre medication
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I contributed to daily stand-up meetings and monthly review meetings with developers and stakeholders, where we discussed progress updates, identified problem areas, and devised solutions to enhance our daily operations and overall throughput.
+                            Assessing patients for intensive care unit admission
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I partnered with the Classifieds marketing team and project manager to enhance Google Analytics tracking and Google Search sitemaps, enabling us to gain valuable insights into user behavior and optimize Google AdWords campaigns managed by the marketing team.
+                            Securing definitive airway
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                          I developed custom WordPress themes for the PPC Zimbabwe branch website (ppc.co.zw), Rainham Park Housing Project (rainhampark.co.zw), and Unified Councils Pension Fund (ucpf.co.zw). I collaborated closely with client representatives throughout the software development lifecycle, from designing and iterating using Figma, to implementing the designs in HTML, CSS, and JavaScript, as well as handling deployment, testing, and post-deployment support.
+                            Administering general, regional, and local anaesthesia
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Safe endotracheal intubation
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Safe use of airway adjuncts
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Intensive Care Unit (ICU) rounds
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Intra operative patient monitoring and documentation
                           </p>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
-                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Full Stack Web Developer</h2>
-                    <h3 className='text-xl'>QwikTech Solutions</h3>
+                    <h2 className='text-xl font-bold'>Senior Resident Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
-                      <span>03/2018 - 11/2019</span>
-                      {/* <span>Harare, ZW</span> */}
+                      <span>12/2022 - 04/2023</span>
+                      {/* <span>Cape Town, SA</span> */}
                     </div>
                     <div className='text-gray-500'>
-                      Software Development
+                      Internship (Paediatrics)
                     </div>
                     <div>
-                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
 
                       <ul className='space-y-2'>
-                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                      <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            Created multiple micro services and the frontend of magetsi.co.zw, a bill payments platform that aims to provide an accessible bill payments platform.
+                            Triaging patients in casualty
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I established an automated deployment pipeline for the four microservices supporting the Magetsi.co.zw backend using Jenkins. This initiative facilitated faster iterations and deployments, thereby improving productivity.
+                            Counselling care givers
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I developed an onmni-channel chatbot that seamlessly integrated with core APIs to enable Magetsi clients to purchase airtime, prepaid tokens, and WiFi bundles using their WhatsApp, Telegram or Twitter. 
+                            Clerking and admiting patients
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Securing intravenous/intraosseous access
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Perfoming cadio pulmonary rescuscitation
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Intensive Care Unit admissions
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Endotracheal intubation in paediatrics
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            New born rescuscitation
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Breaking bad news to patients
                           </p>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
-                <div className="flex flex-shrink-0 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
                   <div>
-                    <h2 className='text-xl font-bold'>Backend Java Developer</h2>
-                    <h3 className='text-xl'>Quatrohaus Private Limited</h3>
+                    <h2 className='text-xl font-bold'>Senior Resident Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
-                      <span>02/2016 - 07/2017</span>
-                      {/* <span>Harare, ZW</span> */}
+                      <span>04/2023 - 08/2023</span>
+                      {/* <span>Cape Town, SA</span> */}
                     </div>
                     <div className='text-gray-500'>
-                      Software Development
+                      Internship (Obstetrics &amp; Gynaecology)
                     </div>
                     <div>
-                      <h4 className='mt-2 italic text-teal-600'>Achievement/Tasks</h4>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
 
                       <ul className='space-y-2'>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I collaborated with fellow developers to implement an enterprise business process management system for the Civil Aviation Authority of Zimbabwe. The system relied on SpringBoot MicroServices on the backend and Angular on the frontend. During the project, I gained experience with Kamunda BPMN business process modeling systems and JasperSoft for generating various certificates, such as Air Worthiness Certificates
+                            Clerking and admiting patients
                           </p>
                         </li>
                         <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
                           <p>
-                            I designed and built multiple admin portals using Laravel with Blade.
+                            Focused obstetric clinical examination
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Perfoming caesarian sections
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Induction of labour
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Managment of obstetric and gynaecological emergencies
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Preparing patients for theatre
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Post natal ward rounds
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-shrink-0 mt-2 before:block before:flex-shrink-0 before:h-20 before:w-8 before:bg-teal-600 before:mr-8">
+                  <div>
+                    <h2 className='text-xl font-bold'>Hospital Medical Officer</h2>
+                    <h3 className='text-xl'>Mpilo Central Hospital</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>10/2023 - Present</span>
+                      {/* <span>Cape Town, SA</span> */}
+                    </div>
+                    {/* <div className='text-gray-500'>
+                      Internship (Obstetrics &amp; Gynaecology)
+                    </div> */}
+                    <div>
+                      <h4 className='mt-2 italic text-teal-600'>Tasks</h4>
+
+                      <ul className='space-y-2'>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Objective pre operative patient assessment
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Safe administration of anaesthetic drugs for regional, general and local anaesthesia
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Safe sedation of patients
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Attending to emergencies in casualty
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Assessment of patients for ICU admissions
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Managment of patients in ICU
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Managment of difficult airway 
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Perfoming cadio pulmonary rescuscitation
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Managing major elective lists
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Teaching Senior Resident Medical Officers
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Being involved in multi-discplinary patient care
+                          </p>
+                        </li>
+                        <li className='flex before:block before:h-2 before:w-2 before:mt-[0.35rem] before:mr-2 before:bg-teal-600 before:flex-shrink-0 before:rounded-full'>
+                          <p>
+                            Participating in continuous medical education
                           </p>
                         </li>
                       </ul>
@@ -373,8 +558,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-[50%] flex-shrink'>
-              <div className='flex justify-between after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
+            <div className='w-[50%] flex-shrink space-y-16'>
+              {/* <div className='flex justify-between after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
                 <div>
                   <h2 className='text-lg font-black uppercase'>My Skills</h2>
                   <ul className='flex flex-wrap -mx-1'>
@@ -492,8 +677,8 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-              </div>
-
+              </div> */}
+{/* 
               <div className='flex justify-between mt-16 after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
                 <div>
                   <h2 className='text-lg font-black uppercase'>Personal Projects</h2>
@@ -527,19 +712,36 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className='flex justify-between mt-16 after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
+              <div className='flex justify-between after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
                 <div>
                   <h2 className='text-lg font-black uppercase'>Education</h2>
                   <div className='mt-2'>
+                    <h2 className='text-xl font-bold'>Diploma in Anaesthetics College of Anaesthetics South Africa (DA)(SA)</h2>
+                    <h3 className='text-lg'>College of Medicine South Africa (CMSA)</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>03/2025</span>
+                      <span>South Africa</span>
+                    </div>
+                  </div>
+                  <div className='mt-8'>
+                    <h2 className='text-xl font-bold'>Bachelor of Medicine and Bachelor of Surgery Degrees (MBBS)</h2>
+                    <h3 className='text-lg'>National University of Science & Technology</h3>
+                    <div className='flex justify-between w-full italic text-teal-600'>
+                      <span>08/2015 - 04/2021</span>
+                      <span>Bulawayo, ZW</span>
+                    </div>
+                  </div>
+
+                  {/* <div className='mt-2'>
                     <h2 className='text-xl font-bold'>Bsc Computer Science</h2>
                     <h3 className='text-lg'>National University of Science & Technology</h3>
                     <div className='flex justify-between w-full italic text-teal-600'>
                       <span>09/2014 - 10/2022</span>
                       <span>Bulawayo, ZW</span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -547,12 +749,12 @@ export default function Home() {
                 <div>
                   <h2 className='text-lg font-black uppercase'>Certifications</h2>
                   <div className='mt-2'>
-                    <h2 className='font-semibold'>Certified Laravel Developer</h2>
+                    <h2 className='font-semibold'>Helicopter Critical Care Assistance (HCCA)</h2>
                     <a href="#" alt="Certified Laravel Developer" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
-                      https://certification.laravel.com
+                      Helidrive LLC, Russia
                     </a>
                   </div>
-                  <div className='mt-4'>
+                  {/* <div className='mt-4'>
                     <h2 className='font-semibold'>Responsive Website Development</h2>
                     <a href="#" alt="Responsive Website Development" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
                       https://freecodecamp.com
@@ -581,7 +783,7 @@ export default function Home() {
                     <a href="#" alt="Introduction to MySQL" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
                       https://sololearn.com
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -602,7 +804,7 @@ export default function Home() {
                   </div>
                   <div className='flex items-center mt-4 space-x-4'>
                     <h2 className='font-semibold w-[40%] flex-shrink-0'>
-                      Zulu / Ndebele
+                      Shona
                     </h2>
                     <ul className='flex space-x-4'>
                         <li className='w-4 h-4 border-2 rounded-full border-slate-800 bg-slate-800'></li>
@@ -614,7 +816,7 @@ export default function Home() {
                   </div>
                   <div className='flex items-center mt-4 space-x-4'>
                     <h2 className='font-semibold w-[40%] flex-shrink-0'>
-                      Shona
+                    Zulu / Ndebele
                     </h2>
                     <ul className='flex space-x-4'>
                         <li className='w-4 h-4 border-2 rounded-full border-slate-800 bg-slate-800'></li>
@@ -629,13 +831,40 @@ export default function Home() {
 
               <div className='flex justify-between mt-16 after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
                 <div>
-                  <h2 className='text-lg font-black uppercase'>Interests &amp; Activities</h2>
+                  <h2 className='text-lg font-black uppercase'>Strengths</h2>
                   <div className='flex flex-wrap -mx-1'>
-                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Chess</div>
-                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Reading</div>
-                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Biking</div>
-                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Cooking</div>
-                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Online Gaming</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Team Player</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Assertive</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Effective Commnication</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Detail oriented</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Professionalism</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Emphathetic</div>
+                    <div className='px-2 py-1 mx-1 mt-2 border rounded border-slate-700'>Committed to life long learning</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='flex justify-between mt-16 after:block after:h-20 after:w-8 after:bg-transparent after:flex-shrink-0 after:ml-12'>
+                <div>
+                  <h2 className='text-lg font-black uppercase'>Referees</h2>
+                  <div className='mt-2'>
+                    <h2 className='font-semibold'>Dr N S Dube</h2>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      drngqa@gmail.com
+                    </a>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      +263 772 114 507
+                    </a>
+                  </div>
+
+                  <div className='mt-4'>
+                    <h2 className='font-semibold'>Dr E M Ndlovu</h2>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      elexmike11@yahoo.com
+                    </a>
+                    <a href="#" className='flex before:h-2 before:w-2 before:mt-[0.37rem] before:mr-2 before:rounded-full before:bg-teal-600'>
+                      +263 772 525 856
+                    </a>
                   </div>
                 </div>
               </div>
