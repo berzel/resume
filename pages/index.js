@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="Online Resume of Berzel Best" />
       </Head>
     
-      <div className='min-h-screen text-sm bg-slate-800 mx-auto max-w-[1100px]'>
+      <div className='min-h-screen text-sm bg-slate-800 mx-auto max-w-[1920px]'>
         <div className="py-12 font-medium mx-auto bg-white">
 
           <section className='flex justify-between'>
